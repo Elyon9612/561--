@@ -1,0 +1,11 @@
+Honghao Li
+lihongh@oregonstate.edu
+
+Localhost:
+Before running anything, please edit mockDirectory of config.json file
+
+Run the config.json file with using apimocker -c <path>/config.json
+
+And the server would listening the port 8080
+
+Then test it and open a browser with: localhost:8080/data/2.5/weather

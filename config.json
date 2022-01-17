@@ -1,0 +1,15 @@
+{
+    "note": "Config file to mock openweather end point",
+    "mockDirectory": "/Users/elyon/Desktop/CS561/assignment-2",
+    "quiet": false,
+    "port": "8080",
+    "logRequestHeaders": false,
+    "allowedHeaders": ["Content-Type", "my-custom-header"],
+    "corsCredentials": "true",
+    "webServices": {
+      "data/2.5/weather": {
+      "mockFile": "example.json",
+      "verbs": ["get"]
+      }
+    }
+}
